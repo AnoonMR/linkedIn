@@ -1,0 +1,58 @@
+*{
+  font-size: 1.2rem;
+}
+body{
+  display: flex;
+  justify-content: center;
+  /*background-color: rgb(144, 144, 144);*/
+  background-color: black;
+}
+.contents{
+  width: 50vw;
+}
+.card{
+  background-color: white;
+  padding: 15px;
+  margin: 20px 10px;
+  border-radius: 10px;
+}
+span{
+  font-weight: bold;
+}
+.Submit{
+  background-color: blue;
+  border-radius: 25px;
+  padding: 5px 15px;
+  color: white;
+  border: none;
+}
+.Connect, .Portfolio{
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 3px;
+}
+.card4{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Note{
+  color: red;
+}
+.Vibe{
+  background-color: rgb(255, 93, 93, 0);
+  border: 1px dashed black;
+  color: red;
+  padding: 5px 15px;
+  font-size: 1rem;
+}
+
+
+@media (max-width: 896px){
+  .contents{
+    width: 100vw;
+  }
+}
